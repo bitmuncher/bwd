@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
+
 from flask import Flask, render_template, redirect, request, abort
 import feedparser
-import time
+
+app = Flask(__name__)
 
 @app.route('/')
 def bwd():
@@ -22,8 +25,6 @@ def about():
   GET - show infos
   """
   return render_template('about.html')
-
-app = Flask(__name__)
 
 if __name__ == '__main__':
   app.run(port=6661, debug=True)
