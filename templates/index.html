@@ -1,10 +1,37 @@
 {% extends 'base.html' %}
 {% block content %}
-  <h1>{% block title %}B-W-D{% endblock %}</h1>
-  <div class="livecam">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HIPNVm6lNfM" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <div class="DWlive">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V9KZGs1MtP4" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+<h1>{% block title %}B-W-D{% endblock %}</h1>
+
+<div class="container">
+	<div class="livecam">
+		<iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/HIPNVm6lNfM" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="DWlive">
+		<iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/V9KZGs1MtP4" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</div>
+<div class="infos">
+
+	<div class="newssources">
+		<strong>News Sources</strong>
+		<ul>
+			<li><a href="https://news.ycombinator.com" target="blank">HackerNews</a></li>
+			<li><a href="https://news.usni.org" target="blank">USNI News</a></li>
+			<li><a href="https://www.aljazeera.com/tag/ukraine-russia-crisis/" target="blank">AlJazeera Ukraine Crisis</a></li>
+		</ul>
+	</div>
+
+	<div class="players">
+		<strong>Important Players</strong>
+		<ul>
+			<li><a href="https://www.maxar.com">Maxar</a> - Satellite Images</li>
+		</ul>
+	</div>
+
+	<div class="linklist">
+		<strong>Others</strong>
+		<ul>
+			<li><a href="https://www.satellite.me">Satellite.me</a> - Get a german phone number by simply using an app</li>
+		</ul>
+</div>
 {% endblock %}
