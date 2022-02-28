@@ -1,3 +1,40 @@
+.container {
+	overflow:auto;
+	position: relative;
+}
+
+.livecam {
+	float: left;
+	border-style: solid;
+	margin: 5px;
+}
+
+.DWlive {
+	float: left;
+	border-style: solid;
+	margin: 5px;
+}
+
+.infos {
+	overflow: auto;
+	position; relative;
+}
+.newssources {
+	float: left;
+	margin: 5px;
+}
+
+.linklist {
+	float: left;
+	margin: 5px;
+}
+
+.players {
+	float: left;
+	margin: 5px;
+}
+
+/* colors come here */
 html,
 body {
   background-image: none !important;
