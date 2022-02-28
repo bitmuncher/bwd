@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 from flask import Flask, render_template, redirect, request, abort
 import feedparser
@@ -27,4 +27,4 @@ def about():
   return render_template('about.html')
 
 if __name__ == '__main__':
-  app.run(port=6661, debug=True)
+  app.run(port=6661, host="0.0.0.0", debug=True)
