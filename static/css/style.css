@@ -34,6 +34,29 @@
 	margin: 5px;
 }
 
+.clock {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	background-color: #424558;
+}
+
+.time {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.date-time {
+	font-size: 14px;
+	color: #fff;
+}
+
+
 /* colors come here */
 html,
 body {
