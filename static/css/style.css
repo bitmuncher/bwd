@@ -56,6 +56,15 @@
 	color: #fff;
 }
 
+.defcon {
+	width: 400px;
+	height: 400px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
 
 /* colors come here */
 html,
